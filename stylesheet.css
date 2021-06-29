@@ -1,0 +1,35 @@
+.svg-sm {
+    width: 48px;
+    height: 48px;
+    padding-right: 8px;
+}
+.vh {
+    text-align: center;
+    vertical-align: middle;
+}
+@media (prefers-color-scheme:light) {
+    body {
+        background-color: #fafafa
+    }
+    .icon-fill {
+        filter: none
+    }
+}
+@media (prefers-color-scheme:dark) {
+    hr {
+        border-color: #5a5a5a
+    }
+    body {
+        background-color: #1d1d1d;
+        color: #fafafa
+    }
+    .icon-fill {
+        filter: invert(100%) sepia(0) saturate(0) hue-rotate(232deg) brightness(102%) contrast(104%)
+    }
+    a:link {
+        color: #8bcbff
+    }
+    a:visited {
+        color: #8bcbff
+    }
+}
